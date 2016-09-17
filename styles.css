@@ -1,0 +1,26 @@
+html,
+body,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: hsla(180, 50%, 80%, 1);;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  color: hsla(180, 100%, 20%, 1);
+  font-size: 3em;
+  position: relative;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
